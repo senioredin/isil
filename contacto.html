@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HERO GYM - Inicio</title>
+    <link rel="stylesheet" href="styles/contacto.css">
+</head>
+<body>
+    <header>
+        <a class="logo" href="index.html">
+            <img src="imagenes/logo.png" alt="HERO GYM">
+        </a>
+        <nav>
+            <a href="planes.html">Planes</a>
+            <a href="sedes.html">Sedes</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+        <div>
+            <a href="#" class="boton">¡Inscríbete ya!</a>
+        </div>
+    </header>
+
+    <section class="contacto">
+        <h1>CONTÁCTANOS</h1>
+    </section>
+
+    <!-- SECCIÓN PRINCIPAL: FORMULARIO RESPONSIVO -->
+    <section class="seccion-formulario">
+        <div class="contenedor-contacto">
+            
+            <!-- Columna Izquierda: Información de texto -->
+            <div class="columna-texto">
+                <h2>¡Hablemos!</h2>
+                <p>Déjanos tus datos y cuéntanos tu inquietud. Te daremos una respuesta en un plazo de hasta 24 horas hábiles.</p>
+            </div>
+
+            <!-- Columna Derecha: El formulario interactivo -->
+            <div class="columna-formulario">
+                <form action="#" method="POST">
+                    
+                    <div class="grupo-campo">
+                        <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <input type="email" id="correo" name="correo" placeholder="Correo Electrónico" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="6" required></textarea>
+                    </div>
+
+                    <div class="grupo-checkbox">
+                        <input type="checkbox" id="politica" name="politica" required>
+                        <label for="politica">He leído y acepto la política de tratamiento de datos</label>
+                    </div>
+
+                    <div class="grupo-boton">
+                        <button type="submit" class="boton-enviar">Enviar</button>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-logo">
+            <img src="imagenes/logo.png" alt="HERO GYM">
+        </div>
+        <hr class="footer-hr">
+        
+        <div class="social">
+            <p>Síguenos:</p>
+            <div class="social-iconos">
+                <a href="#" class="icono">FB</a>
+                <a href="#" class="icono">IG</a>
+                <a href="#" class="icono">YT</a>
+            </div>
+        </div>
+
+        <div class="creditos">
+            <p>Desarrollado por el <strong>Grupo 3</strong> para el curso de <strong>Diseño y Desarrollo Web - ISIL 2026</strong></p>
+        </div>
+    </footer>
+</body>
+</html>
