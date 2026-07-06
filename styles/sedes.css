@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+    color: #0d0d0d;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+header {
+    background-color: #f2b705;
+    border-bottom: 1px solid #a6a6a6;
+    padding: 15px 5%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: sticky;
+}
+
+.logo-nav {
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    padding: 20px;
+    background-color: #e0e0e0;
+    border-radius: 20px;
+}
+
+.menu-nav a {
+    margin: 0 15px;
+    font-weight: 500;
+    color: #000;
+    transition: color 0.3s;
+}
+
+.menu-nav a:hover, .menu-nav a.active {
+    color: #000;
+    font-weight: bold;
+}
+
+.Inscribete {
+    background-color: #0d0d0d;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: calc(0.3s);
+}
+
+.Inscribete:hover {
+    background-color: #585759;
+    transform: scale(1.1);
+}
+
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.buscador-container {
+    margin-bottom: 40px;
+}
+
+.buscador-container input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 0.9rem;
+}
+
+#padre {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.tarjeta {
+    
+    border: 1px solid #586579;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: calc(1s);
+    
+}
+.tarjeta:hover{
+    transform: scale(1.03);
+}
+.tarjeta img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.titulo-sede {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.direccion-sede {
+    font-size: 0.9rem;
+    color: #0d0d0d;
+    margin-bottom: 15px;
+}
+
+.selec_s {
+    background-color: #0d0d0d;
+    color: white;
+    width: 75%;
+    padding: 10px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    transition: calc(0.3s);
+}
+
+.selec_s:hover {
+    background-color: #bf9004;
+}
+
+
+.Ver-mas {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.Ver-mas a {
+    background-color: #0d0d0d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    transition: calc(0.3s)
+}
+
+.Ver-mas a:hover {
+    background-color: #bf9004;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: white;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+    border-top: 1px solid #e0e0e0;
+}
+
+footer h2 {
+    font-size: 1.3rem;
+    margin-bottom: 25px;
+}
+
+.servicios-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.servicio-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+}
+
+.icono-placeholder {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #585759  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.servicio-item span {
+    font-size: 0.85rem;
+    color: #585759;
+}
+
+.footer-divider {
+    border: 0;
+    height: 1px;
+    background-color: #585759;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.logo-footer {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: 15px 0;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 15px 0 30px 0;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.2s;
+}
+
+.redes-sociales img:hover {
+    transform: scale(1.1);
+}
+
+footer h3 {
+    font-size: 0.8rem;
+    color: #a6a6a6;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.contenido{
+    color: #585759;
+}
