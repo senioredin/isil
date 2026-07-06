@@ -1,6 +1,6 @@
 Estimado profesor:
 
-Le comparto el enlace de mi proyecto final, publicado mediante GitHub Pages.
+Le comparto el enlace del proyecto final, publicado mediante GitHub Pages.
 
 Enlace del proyecto:
 https://senioredin.github.io/isil/
